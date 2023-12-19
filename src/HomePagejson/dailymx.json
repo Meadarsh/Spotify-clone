@@ -1,0 +1,53 @@
+[
+    {
+        "id":"1",
+        "Title":"Daily Mix 1",
+        "Discription":"AP Dhillon, Siddhu Moose wala and more",
+        "img":"https://imageattachment.epicx.online/daily.png",
+           "path":"dailymix1",
+           "color":" #999D9C ",
+           "color1":" #121212",
+           "duration":"30 songs, about 3 hr"
+        
+    },
+    {
+        "id":"2",
+        "Title":"Daily Mix 2",
+        "Discription":"Justin Bieber, Ed sheeran, Alan walker and more",
+        "img":"https://imageattachment.epicx.online/daily (1).png",
+        "path":"dailymix2",
+        "color":" #383530",
+        "color1":"#121212",
+        "duration":"30 songs, about 3 hr"
+    },
+    {
+        "id":"3",
+        "Title":"Daily Mix 3",
+        "Discription":"Justin Bieber, Ed sheeran, Alan walker, Serena",
+        "img":"https://imageattachment.epicx.online/daily (2).png",
+        "path":"dailymix3",
+        "color":" #1373B3",
+        "color1":"#121212",
+        "duration":"30 songs, about 3 hr"
+    },
+    {
+        "id":"4",
+        "Title":"Daily Mix 4",
+        "Discription":"Justin Bieber, Ed sheeran, Alan walker, Serena",
+        "img":"https://imageattachment.epicx.online/daily (3).png",
+        "path":"dailymix4",
+        "color":" #63251A",
+        "color1":"#121212",
+        "duration":"30 songs, about 3 hr"
+    },
+    {
+        "id":"5",
+        "Title":"Daily Mix 5",
+        "Discription":"Lo-Fi",
+        "img":"https://imageattachment.epicx.online/daily%20(5).png",
+        "path":"dailymix5",
+        "color":" #FCA8BB",
+        "color1":"#121212",
+        "duration":"30 songs, about 3 hr"
+    }
+]

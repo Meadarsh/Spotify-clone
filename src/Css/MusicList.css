@@ -1,0 +1,253 @@
+.gradbackgrown{
+   
+   height: 600px;
+   width: 100%;
+  padding-top: 1px;
+}
+.topbar1{
+  height: 70px;
+  width:1162px;
+  border-radius:8px 8px 0 0;
+  background-color: transparent; 
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+ }
+.upperTranspbox{
+    margin-top: 80px;
+    height: 220px;
+    display: flex;
+   color: white;
+}
+.imgboxx{
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 230px;
+    width: 230px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.imgboxx>img{
+    height: 230px;
+    width: 230px;  
+}
+.rightdetail{
+    margin-top: 28px;
+    
+    height: 200px;
+    
+    width: 520px;
+    word-wrap: break-word;
+}
+.rightdetail>p{
+   
+ font-weight: 500;
+}
+.rightdetailh22{
+    font-size: 6.5vw;
+}
+
+.rightdetailh2forlike{
+    font-size: 5vw;
+}
+.opacitycontrol{
+    opacity: .8;
+}
+.lowerdivforL{
+    margin-top: 35px;
+    width: 100%;
+    background-color: rgba(18, 18, 18, 0.188);
+}
+.upperbar1{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+   
+}
+.playallbutton{
+  height: 50px;
+  width: 50px;
+    border-radius: 50%;
+  
+   margin-left: 40px;
+  
+   
+}
+.playallbuttontopbar{
+  height: 45px;
+  width: 45px;
+  margin-left: 40px;
+  transform:scale(0);
+  
+}
+
+
+.playallbuttonimg{
+  height: inherit;
+  width: inherit;
+    border-radius: 50%;
+}
+.playallbuttonimg:hover{
+    transform: scale(1.05);
+}
+/********** like button ******************/
+.heart-container {
+    --heart-color: rebeccapurple;
+    position: relative;
+    width: 30px;
+    height: 30px;
+   margin-right: 50px;
+    margin-left: 30px;   
+  }
+  .heart-dis-topba{
+    transform: scale(0);
+  }
+  
+  .heart-container .checkbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 20;
+    cursor: pointer;
+    
+  }
+  
+  .heart-container .svg-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .heart-container .svg-outline,
+          .heart-container .svg-filled {
+    fill: var(--heart-color);
+    position: absolute;
+  }
+  
+  .heart-container .svg-filled {
+    animation: keyframes-svg-filled 1s;
+    display: none;
+  }
+  
+  .heart-container .svg-celebrate {
+    position: absolute;
+    animation: keyframes-svg-celebrate .5s;
+    animation-fill-mode: forwards;
+    display: none;
+    stroke: var(--heart-color);
+    fill: var(--heart-color);
+    stroke-width: 2px;
+  }
+  
+  .heart-container .checkbox:checked~.svg-container .svg-filled {
+    display: block
+  }
+  .fil{
+    display: block !important;
+  }
+
+  
+  .heart-container .checkbox:checked~.svg-container .svg-celebrate {
+    display: block
+  }
+  
+  @keyframes keyframes-svg-filled {
+    0% {
+      transform: scale(0);
+    }
+  
+    25% {
+      transform: scale(1.2);
+    }
+  
+    50% {
+      transform: scale(1);
+      filter: brightness(1.5);
+    }
+  }
+  
+  @keyframes keyframes-svg-celebrate {
+    0% {
+      transform: scale(0);
+    }
+  
+    50% {
+      opacity: 1;
+      filter: brightness(1.5);
+    }
+  
+    100% {
+      transform: scale(1.4);
+      opacity: 0;
+      display: none;
+    }
+  }
+  /********************* songlist div **********************/
+  .songlistboxtitle{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.589);
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.149);
+    position: sticky;
+    top: 70px ;
+    margin-bottom: 10px;
+    z-index: 2;
+}
+  .songlistboxtitlep1{
+    margin-left: 50px;
+    margin-right: 80px;
+  }
+  .songlistboxtitlep2{
+      margin-left: 467px;
+  }
+  .songlistboxtitlep3{
+    margin-left: 360px;
+  }
+  .sodivlaybar{
+    display: flex;
+    align-items: center;
+   margin-left: 20px;
+    color: rgb(255, 255, 255);
+    width: 93.8%;
+    height: 55px;
+    padding-left: 30px;
+    border-radius: 8px;
+  }
+  .sodivlaybar:hover{
+    background-color: rgba(255, 255, 255, 0.073);
+  }
+  
+  .sodivlaybarimg{
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+  }
+  .detailhdjfjy{
+    margin-left: 15px;
+    width: 500px;
+  }
+  .detailhdjfjyh3{
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .detailhdjfjyp{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.601);
+  }
+  .songplaybaralbumname{
+     width: 312px;
+     
+  }
+  .heart-marg{
+    margin-right: 50px;
+  }
